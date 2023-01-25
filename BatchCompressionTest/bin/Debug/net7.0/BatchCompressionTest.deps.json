@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BatchCompressionTest/1.0.0": {
+        "dependencies": {
+          "ZKWeb.System.Drawing": "1.0.0.0"
+        },
+        "runtime": {
+          "BatchCompressionTest.dll": {}
+        }
+      },
+      "ZKWeb.System.Drawing/1.0.0.0": {
+        "runtime": {
+          "ZKWeb.System.Drawing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BatchCompressionTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZKWeb.System.Drawing/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

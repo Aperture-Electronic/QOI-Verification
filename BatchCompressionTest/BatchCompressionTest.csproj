@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="ZKWeb.System.Drawing">
+        <HintPath>..\..\..\..\..\..\.nuget\packages\zkweb.system.drawing\4.0.1\lib\netstandard2.0\ZKWeb.System.Drawing.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
