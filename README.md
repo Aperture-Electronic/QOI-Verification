@@ -11,9 +11,9 @@ This tool can read all images in a directory and convert them to 24-bpp bitmap (
 
 Usage: 
 * Linux  
-> dotnet TestBitmapConverter.dll **<root_path>** **<out_path>**
+> dotnet TestBitmapConverter.dll **\<root_path>** **\<out_path>**
 * Windows  
-> ./TestBitmapConverter **<root_path>** **<out_path>**
+> ./TestBitmapConverter **\<root_path>** **\<out_path>**
 
 **root_path**: Root path of image set. It can has many sub-directory in it and contains multiple PNG images.
 **out_path**: Output path, all Bitmap images will output to the path. And the original sub-directory name will appears at the perfix of filename with "\_\_\_" separator.
@@ -33,7 +33,7 @@ The test program has a certain command-line format that batch test program can u
 
 ### Arguments
 There are 3 arguments on the test program, like
-> ./test **<command>** **<source>** **<target>**
+> ./test **\<command>** **\<source>** **\<target>**
 
 **command**: The command argument has 3 choice
 1. -e: Encode (Compression)
